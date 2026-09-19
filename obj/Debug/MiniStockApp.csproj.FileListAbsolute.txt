@@ -1,0 +1,11 @@
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\bin\Debug\MiniStockApp.exe.config
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\bin\Debug\MiniStockApp.exe
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\bin\Debug\MiniStockApp.pdb
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\obj\Debug\MiniStockApp.csproj.AssemblyReference.cache
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\obj\Debug\MiniStockApp.Form1.resources
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\obj\Debug\MiniStockApp.Form2.resources
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\obj\Debug\MiniStockApp.Properties.Resources.resources
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\obj\Debug\MiniStockApp.csproj.GenerateResource.cache
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\obj\Debug\MiniStockApp.csproj.CoreCompileInputs.cache
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\obj\Debug\MiniStockApp.exe
+C:\Users\hfg00\source\repos\MiniStockApp\MiniStockApp\obj\Debug\MiniStockApp.pdb

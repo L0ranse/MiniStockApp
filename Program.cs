@@ -18,8 +18,7 @@ namespace MiniStockApp
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+            
         }
     }
 }
