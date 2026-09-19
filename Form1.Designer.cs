@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.searchBtn = new System.Windows.Forms.Button();
-            this.newProductBtn = new System.Windows.Forms.Button();
-            this.editBtn = new System.Windows.Forms.Button();
-            this.removeBtn = new System.Windows.Forms.Button();
             this.lowStockItemsBtn = new System.Windows.Forms.Button();
+            this.removeBtn = new System.Windows.Forms.Button();
+            this.editBtn = new System.Windows.Forms.Button();
+            this.newProductBtn = new System.Windows.Forms.Button();
+            this.searchBtn = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -53,46 +53,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buttons";
             // 
-            // dataGridView1
+            // lowStockItemsBtn
             // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(53, 420);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1590, 375);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // searchBtn
-            // 
-            this.searchBtn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.searchBtn.Location = new System.Drawing.Point(32, 108);
-            this.searchBtn.Name = "searchBtn";
-            this.searchBtn.Size = new System.Drawing.Size(180, 124);
-            this.searchBtn.TabIndex = 0;
-            this.searchBtn.Text = "Search";
-            this.searchBtn.UseVisualStyleBackColor = true;
-            // 
-            // newProductBtn
-            // 
-            this.newProductBtn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.newProductBtn.Location = new System.Drawing.Point(358, 108);
-            this.newProductBtn.Name = "newProductBtn";
-            this.newProductBtn.Size = new System.Drawing.Size(180, 124);
-            this.newProductBtn.TabIndex = 0;
-            this.newProductBtn.Text = "New Product";
-            this.newProductBtn.UseVisualStyleBackColor = true;
-            // 
-            // editBtn
-            // 
-            this.editBtn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.editBtn.Location = new System.Drawing.Point(714, 108);
-            this.editBtn.Name = "editBtn";
-            this.editBtn.Size = new System.Drawing.Size(180, 124);
-            this.editBtn.TabIndex = 0;
-            this.editBtn.Text = "Edit";
-            this.editBtn.UseVisualStyleBackColor = true;
+            this.lowStockItemsBtn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.lowStockItemsBtn.Location = new System.Drawing.Point(1376, 108);
+            this.lowStockItemsBtn.Name = "lowStockItemsBtn";
+            this.lowStockItemsBtn.Size = new System.Drawing.Size(180, 124);
+            this.lowStockItemsBtn.TabIndex = 0;
+            this.lowStockItemsBtn.Text = "Low Stock Items";
+            this.lowStockItemsBtn.UseVisualStyleBackColor = true;
+            this.lowStockItemsBtn.Click += new System.EventHandler(this.lowStockItemsBtn_Click);
             // 
             // removeBtn
             // 
@@ -103,16 +73,51 @@
             this.removeBtn.TabIndex = 0;
             this.removeBtn.Text = "Remove";
             this.removeBtn.UseVisualStyleBackColor = true;
+            this.removeBtn.Click += new System.EventHandler(this.removeBtn_Click);
             // 
-            // lowStockItemsBtn
+            // editBtn
             // 
-            this.lowStockItemsBtn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.lowStockItemsBtn.Location = new System.Drawing.Point(1376, 108);
-            this.lowStockItemsBtn.Name = "lowStockItemsBtn";
-            this.lowStockItemsBtn.Size = new System.Drawing.Size(180, 124);
-            this.lowStockItemsBtn.TabIndex = 0;
-            this.lowStockItemsBtn.Text = "Low Stock Items";
-            this.lowStockItemsBtn.UseVisualStyleBackColor = true;
+            this.editBtn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.editBtn.Location = new System.Drawing.Point(714, 108);
+            this.editBtn.Name = "editBtn";
+            this.editBtn.Size = new System.Drawing.Size(180, 124);
+            this.editBtn.TabIndex = 0;
+            this.editBtn.Text = "Edit";
+            this.editBtn.UseVisualStyleBackColor = true;
+            this.editBtn.Click += new System.EventHandler(this.editBtn_Click);
+            // 
+            // newProductBtn
+            // 
+            this.newProductBtn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.newProductBtn.Location = new System.Drawing.Point(358, 108);
+            this.newProductBtn.Name = "newProductBtn";
+            this.newProductBtn.Size = new System.Drawing.Size(180, 124);
+            this.newProductBtn.TabIndex = 0;
+            this.newProductBtn.Text = "New Product";
+            this.newProductBtn.UseVisualStyleBackColor = true;
+            this.newProductBtn.Click += new System.EventHandler(this.newProductBtn_Click);
+            // 
+            // searchBtn
+            // 
+            this.searchBtn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.searchBtn.Location = new System.Drawing.Point(32, 108);
+            this.searchBtn.Name = "searchBtn";
+            this.searchBtn.Size = new System.Drawing.Size(180, 124);
+            this.searchBtn.TabIndex = 0;
+            this.searchBtn.Text = "Search";
+            this.searchBtn.UseVisualStyleBackColor = true;
+            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(53, 420);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(1590, 375);
+            this.dataGridView1.TabIndex = 1;
             // 
             // Form1
             // 
@@ -125,6 +130,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
